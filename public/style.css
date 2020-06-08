@@ -1,0 +1,20 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#chat {
+    border: 1px solid royalblue;
+    height: 80%;
+    overflow: auto;
+}
+
+.message {
+    width: 90%;
+    display: inline-block;
+}
+
+.send {
+    display: inline-block;
+}
