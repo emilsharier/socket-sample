@@ -1,7 +1,7 @@
 $(function() {
 
     var username = window.prompt("Please enter your name : ", "Annonymous")
-    var socket = io.connect('http://localhost:3000')
+    var socket = io.connect('https://socket-sample-emil.herokuapp.com/')
 
     var chatroom = $('#chat')
     var message = $('#message')

@@ -3,8 +3,10 @@ const path = require('path')
 
 const app = express()
 
-var server = app.listen(3000, () => {
-    console.log('Server up and running on 3000')
+const port = process.env.PORT || 3000
+
+var server = app.listen(port, () => {
+    console.log('Server up and running on ' + port)
 })
 
 app.set('view engine', 'ejs')
